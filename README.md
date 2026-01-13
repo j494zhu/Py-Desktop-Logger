@@ -1,10 +1,10 @@
-# 📝 Daily Study Log App
+# Daily Study Log App
 
 A lightweight, modern desktop application built with **Python** and **PyQt5** designed to help students and professionals track their daily study or work activities efficiently. 
 
 The application features a clean, CSS-styled interface (QSS), real-time duration calculation, and a history review system powered by local JSON storage.
 
-## 📸 Screenshots
+## Screenshots
 
 ### 1. Main Dashboard
 The landing page features a minimalistic design with a live digital clock and date display.
@@ -20,7 +20,7 @@ A built-in calendar allows users to navigate through past dates and review their
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 * **Real-Time Dashboard:** Displays the current date and time (HH:MM:SS) with a modern, readable font.
 * **Smart Time Calculation:** Automatically computes the duration of each task in real-time. It aggregates the total hours and minutes worked for the day immediately upon data entry.
@@ -30,7 +30,7 @@ A built-in calendar allows users to navigate through past dates and review their
 
 ---
 
-## 🛠️ Technical Stack
+## Technical Stack
 
 * **Language:** Python 3.8
 * **GUI Framework:** PyQt5 (Qt Widgets)
@@ -39,7 +39,7 @@ A built-in calendar allows users to navigate through past dates and review their
 
 ---
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 1.  **Clone the repository** (or download the source code):
     ```bash
@@ -60,7 +60,7 @@ A built-in calendar allows users to navigate through past dates and review their
     ```
 
 ---
-## 📂 Project Structure
+## Project Structure
 
 ```text
 study-log-app/
@@ -76,12 +76,12 @@ study-log-app/
 └── ui_history.py        # History viewing interface logic
 ```
 
-## 🔮 Future Improvements
+## Future Improvements
 
 Here are some planned features to further enhance the application:
 
-* **📊 Data Visualization:** Integrate `Matplotlib` or `PyQtChart` to display weekly and monthly study trends visually.
-* **📥 Export Functionality:** Add support for exporting logs to **CSV** or **Excel** formats for external analysis.
-* **🗄️ Database Migration:** Transition from JSON files to **SQLite** for more robust data querying and handling larger datasets.
-* **✏️ Edit History:** Allow users to modify or delete past log entries directly from the History View.
-* **⏱️ Pomodoro Timer:** Integrate a built-in timer to help users manage study sessions directly within the app.
+* **Data Visualization:** Integrate `Matplotlib` or `PyQtChart` to display weekly and monthly study trends visually.
+* **Export Functionality:** Add support for exporting logs to **CSV** or **Excel** formats for external analysis.
+* **Database Migration:** Transition from JSON files to **SQLite** for more robust data querying and handling larger datasets.
+* **Edit History:** Allow users to modify or delete past log entries directly from the History View.
+* **⏱Pomodoro Timer:** Integrate a built-in timer to help users manage study sessions directly within the app.
