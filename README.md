@@ -84,4 +84,4 @@ Here are some planned features to further enhance the application:
 * **Export Functionality:** Add support for exporting logs to **CSV** or **Excel** formats for external analysis.
 * **Database Migration:** Transition from JSON files to **SQLite** for more robust data querying and handling larger datasets.
 * **Edit History:** Allow users to modify or delete past log entries directly from the History View.
-* **⏱Pomodoro Timer:** Integrate a built-in timer to help users manage study sessions directly within the app.
+* **Pomodoro Timer:** Integrate a built-in timer to help users manage study sessions directly within the app.
